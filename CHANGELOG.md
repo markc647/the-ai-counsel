@@ -7,8 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.11.4] - 2026-08-13
+
 ### Fixed
 - Docked the chat composer below the scrollable conversation and corrected its narrow-screen spacing so responses remain readable while typing.
+- Replaced the Stage 3 verdict sheen's layout-triggering animation with compositor-friendly transforms to reduce sustained rendering work.
+
+### Thanks
+- Thanks to [@markc647](https://github.com/markc647) for contributing PRs [#20](https://github.com/jacob-bd/the-ai-counsel/pull/20) and [#21](https://github.com/jacob-bd/the-ai-counsel/pull/21).
 
 ## [0.11.3] - 2026-08-06
 
