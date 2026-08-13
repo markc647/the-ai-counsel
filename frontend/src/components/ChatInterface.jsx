@@ -355,11 +355,11 @@ export default function ChatInterface({
                     })
                 )}
 
-                {/* Bottom Spacer for floating input */}
+                {/* Bottom spacer for message scroll anchoring */}
                 <div ref={messagesEndRef} style={{ height: '20px' }} />
             </div>
 
-            {/* Floating Command Capsule — hidden for advisor debates */}
+            {/* Docked Command Capsule — hidden for advisor debates */}
             {mode !== 'advisors' && <div className="input-area">
                 <DebateConfigBar
                     critiqueMode={critiqueMode}

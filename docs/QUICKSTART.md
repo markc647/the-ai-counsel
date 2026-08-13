@@ -87,6 +87,8 @@ If you already use [relay-ai](https://github.com/jacob-bd/relay-ai), open **Sett
 4. (Optional) Toggle **Web Search** for real-time grounding
 5. Press **Enter**
 
+The chat composer stays docked below the scrollable conversation, including on narrow screens.
+
 Watch as:
 - **Stage 1**: Each council member responds independently
 - **Stage 2**: Models anonymously rank each other's responses
