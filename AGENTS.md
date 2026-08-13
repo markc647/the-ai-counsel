@@ -91,7 +91,7 @@ This fixes binary incompatibilities (e.g., `@rollup/rollup-darwin-*` variants).
 | Component | Purpose |
 |-----------|---------|
 | `App.jsx` | Main orchestration, SSE streaming, conversation state |
-| `ChatInterface.jsx` | User input, web search toggle, execution mode |
+| `ChatInterface.jsx` | User input, docked chat composer, web search toggle, execution mode |
 | `DocumentUpload.jsx` | File picker/extraction UI for Council and Advisor document context |
 | `Stage1.jsx` | Tab view of individual model responses |
 | `Stage2.jsx` | Peer rankings with de-anonymization, aggregate scores |
