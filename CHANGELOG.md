@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+- Docked the chat composer below the scrollable conversation and corrected its narrow-screen spacing so responses remain readable while typing.
+
 ## [0.11.3] - 2026-08-06
 
 ### Fixed

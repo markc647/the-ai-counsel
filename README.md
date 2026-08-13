@@ -237,6 +237,7 @@ Some provider/model combinations only accept their default temperature. The app 
 
 - **Live Progress Tracking** — See each model or advisor respond in real-time with streaming; reconnect to active runs via `GET /api/conversations/{id}/progress`
 - **Multi-turn Conversations** — Follow-up questions carry full context automatically
+- **Docked Chat Composer** — The input stays below the scrollable conversation so responses remain readable while you type
 - **Text File Uploads** — Attach PDFs and text/code/config files in Council or Advisor mode; extracted text is sent as normalized prompt context across all providers while conversation history stores attachment metadata only
 - **Council Sizing** — Adjust council from 1 to 8 models; advisors from 2 to 4 personas (select from 12)
 - **Advisor Presets** — Save and load named advisor lineups (personas, model mode, optional rounds/web search) from Advisor Setup

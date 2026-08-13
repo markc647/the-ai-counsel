@@ -354,7 +354,7 @@
   text-decoration: underline;
 }
 
-/* Floating Input Area */
+/* Docked Input Area */
 .input-area {
   flex-shrink: 0;
   width: 100%;
@@ -744,12 +744,13 @@
 @media (max-width: 768px) {
   /* Adjust for hamburger menu */
   .chat-interface {
+    box-sizing: border-box;
     padding-top: 60px;
   }
 
   /* Reduce padding in messages area */
   .messages-area {
-    padding: 16px 12px 100px 12px;
+    padding: 16px 12px 24px 12px;
   }
 
   /* Full width messages */
@@ -763,10 +764,7 @@
 
   /* Adjust input area for mobile */
   .input-area {
-    bottom: 16px;
     width: calc(100% - 24px);
-    left: 12px;
-    transform: none;
     max-width: none;
   }
 
