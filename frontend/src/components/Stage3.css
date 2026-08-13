@@ -72,29 +72,30 @@
   content: '';
   position: absolute;
   top: 0;
-  left: -100%;
+  left: -50%;
   width: 50%;
   height: 100%;
   background: linear-gradient(90deg,
       transparent,
       rgba(255, 255, 255, 0.05),
       transparent);
-  transform: skewX(-25deg);
+  transform: skewX(-25deg) translateX(0%);
   animation: sheen 6s infinite;
   pointer-events: none;
+  will-change: transform;
 }
 
 @keyframes sheen {
   0% {
-    left: -100%;
+    transform: skewX(-25deg) translateX(0%);
   }
 
   20% {
-    left: 200%;
+    transform: skewX(-25deg) translateX(500%);
   }
 
   100% {
-    left: 200%;
+    transform: skewX(-25deg) translateX(500%);
   }
 }
 
